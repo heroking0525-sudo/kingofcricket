@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>𝑲𝑰𝑵𝑮 𝑶𝑭 𝑪𝑹𝑰𝑪𝑲𝑬𝑻🏏</title>
+
+  <style>
+    /* ===== RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top left, #001d3d, #000814);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    /* ===== GLOW ===== */
+    .glow {
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      filter: blur(100px);
+      opacity: 0.45;
+      z-index: -1;
+      animation: float 6s ease-in-out infinite alternate;
+    }
+
+    .glow:nth-child(1) {
+      background: #0047ff;
+      top: 15%;
+      left: 10%;
+    }
+
+    .glow:nth-child(2) {
+      background: #ffd700;
+      bottom: 15%;
+      right: 15%;
+      animation-delay: 3s;
+    }
+
+    @keyframes float {
+      from { transform: translateY(0); }
+      to { transform: translateY(-25px); }
+    }
+
+    /* ===== CARD ===== */
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 45px 30px;
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+      backdrop-filter: blur(15px);
+      box-shadow: 0 8px 35px rgba(0, 0, 0, 0.35);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 45px rgba(0, 136, 255, 0.35);
+    }
+
+    /* ===== TITLE ===== */
+    .title {
+      font-size: 2.1rem;
+      font-weight: 800;
+      background: linear-gradient(90deg, #ffd700, #ffec80);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+      margin-bottom: 10px;
+    }
+
+    .subscribers {
+      font-size: 1rem;
+      color: #d1d9ff;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+
+    /* ===== DESCRIPTION ===== */
+    .desc {
+      font-size: 0.95rem;
+      color: #f1f4ff;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .highlight {
+      color: #ffcc00;
+      font-weight: 600;
+    }
+
+    .footer {
+      color: #a8b2c8;
+      font-size: 0.9rem;
+      margin: 20px 0 12px;
+      letter-spacing: 0.4px;
+    }
+
+    /* ===== BUTTON ===== */
+    .btn {
+      background: linear-gradient(90deg, #0047ff, #00b4ff);
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 700;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(0, 136, 255, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(90deg, #0077ff, #00d4ff);
+      box-shadow: 0 8px 30px rgba(0, 170, 255, 0.5);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="glow"></div>
+
+  <div class="card">
+    <h1 class="title">𝑲𝑰𝑵𝑮 𝑶𝑭 𝑪𝑹𝑰𝑪𝑲𝑬𝑻🏏</h1>
+    <p class="subscribers">53,200 subscribers</p>
+
+    <p class="desc">LOSS COVER <span class="highlight">SPECIALIST☆</span></p>
+    <p class="desc">SHARE WITH <span class="highlight">TOSS + CRICKET LOVERS</span></p>
+    <p class="desc">MARKET KA BAAP 👉 <span class="highlight">ONLY_KING OF CRICKET 👆</span></p>
+    <p class="desc">OWNER 👉 <span class="highlight">@MAHESHKING</span></p>
+
+    <p class="footer">Channel link share kro 👇👇👇</p>
+
+    <button class="btn" onclick="joinChannel()">Join [𝑲𝑰𝑵𝑮 𝑶𝑭 𝑪𝑹𝑰𝑪𝑲𝑬𝑻🏏] Channel</button>
+  </div>
+
+  <script>
+    function joinChannel() {
+      window.open("https://t.me/+51Le0UEvDBxkYzNl", "_blank");
+    }
+  </script>
+</body>
+</html>
